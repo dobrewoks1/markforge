@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.venv/
+venv/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# локальные настройки Claude Code
+.claude/settings.local.json
+
+# Результаты конвертации примеров (кроме исходников)
+/samples/sample.docx
+/samples/sample.epub
+/samples/sample.pdf
+/samples/sample/
